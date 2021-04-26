@@ -1,15 +1,15 @@
-body,html{
+body,html {
     margin:0;
     padding:0;
 }
 
-header{
+header {
     width:100%;
     height:70px;
     background-color:black;
 }
 
-h1{
+h1 {
     position: absolute;
     float:left;
     margin-left:2%;
@@ -18,54 +18,48 @@ h1{
     color:white;
 }
 
-ul{
+ul {
     width:auto;
     float: right;
     margin-top:8px;
 }
 
-li{
+li {
     display:inline-block;
     padding:15px 30px;
 }
 
-a{
-    text-align:center;
-    color:#ffffff;
-    text-decoration:none;
+a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
     font-family: 'Bangers', cursive;
-    font-size:90%;
+    font-size: 90%;
 }
 
-a:hover{
-    color:#ffffff;
-    transition:1s;
+a:hover {
+    color: #ffffff;
+    transition: 1s;
 }
 
-.city{
+.city {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:18%;
-    width:18%;
+    height: 18%;
+    width: 18%;
 }
 
-body{ 
-    background-image:url("image#1.jpg");
-    background-repeat:no-repeat;
-    background-size:100%;
-}
-
-.city{
+.city {
     font-family: 'Bangers', cursive;
-    font-size:250%;
-    text-align:center;
+    font-size: 250%;
+    text-align: center;
 }
 
-.city1{
+.city1 {
     font-family: 'Poppins', sans-serif;
-    font-size:115%;
-    text-align:center;
-    margin-left:1in;
-    margin-right:1in;
+    font-size: 115%;
+    text-align: center;
+    margin-left: 1in;
+    margin-right: 1in;
 }
