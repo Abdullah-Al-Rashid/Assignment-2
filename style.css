@@ -1,4 +1,5 @@
-body,html {
+body,
+html {
     margin:0;
     padding:0;
 }
@@ -56,7 +57,7 @@ a:hover {
     text-align: center;
 }
 
-.city1 {
+.city1{
     font-family: 'Poppins', sans-serif;
     font-size: 115%;
     text-align: center;
