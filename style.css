@@ -32,18 +32,18 @@ li {
 
 a {
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   font-family: 'Bangers', cursive;
   font-size: 90%;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #fff;
   transition: 1s;
 }
 
-.city {
+#city {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -57,7 +57,7 @@ a:hover {
   text-align: center;
 }
 
-.city1{
+.city1 {
   font-family: 'Poppins', sans-serif;
   font-size: 115%;
   text-align: center;
