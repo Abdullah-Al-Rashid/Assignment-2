@@ -5,9 +5,15 @@ html {
 }
 
 header {
-  width: 100%;
+  display: block;
+  margin: auto;
+  left: 25%;
+  width: 50%;
   height: 70px;
-  background-color: black;
+  color: black;
+  border: 5px solid black;
+  position: fixed;
+  padding: 10px;
 }
 
 h1 {
@@ -16,7 +22,7 @@ h1 {
   margin-left: 2%;
   margin-top: 20px;
   font-family: 'Bangers', cursive;
-  color: white;
+  color: black;
 }
 
 ul {
@@ -32,23 +38,25 @@ li {
 
 a {
   text-align: center;
-  color: #fff;
+  color: black;
   text-decoration: none;
   font-family: 'Bangers', cursive;
-  font-size: 90%;
+  font-size: 110%;
 }
 
 a:hover {
-  color: #fff;
-  transition: 1s;
+  background-color: dimgray;
+  transition: 0.5s;
 }
 
 .city {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   height: 18%;
   width: 18%;
+  border: 3px solid black;
+  padding: 10px;
+  box-shadow: 5px 10px 8px darkgray;
 }
 
 .hi {
@@ -63,4 +71,31 @@ a:hover {
   text-align: center;
   margin-left: 1in;
   margin-right: 1in;
+  border: 3px solid black;
+  padding: 10px;
+  box-shadow: 5px 10px 8px darkgray;
+}
+
+.hello1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 115%;
+  text-align: center;
+  margin-left: 2.5in;
+  margin-right: 2.5in;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 8px darkgray; 
+}
+
+.hello2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 115%;
+  text-align: center;
+  margin-left: 4in;
+  margin-right: 4in;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 8px darkgray;  
 }
