@@ -74,6 +74,7 @@ a:hover {
   border: 3px solid black;
   padding: 10px;
   box-shadow: 5px 10px 8px darkgray;
+  background-color: #ddd;
 }
 
 .hello1 {
@@ -86,6 +87,7 @@ a:hover {
   padding: 10px;
   border-radius: 15px;
   box-shadow: 5px 10px 8px darkgray;
+  background-color: #ddd;
 }
 
 .hello2 {
@@ -98,4 +100,5 @@ a:hover {
   padding: 10px;
   border-radius: 15px;
   box-shadow: 5px 10px 8px darkgray;
+  background-color: #ddd;
 }
